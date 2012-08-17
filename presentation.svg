@@ -16,7 +16,8 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.1 r9760"
-   sodipodi:docname="presentation.svg">
+   sodipodi:docname="presentation.svg"
+   style="display:inline">
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -24,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.86833333"
-     inkscape:cx="455.29464"
-     inkscape:cy="300.05629"
+     inkscape:zoom="0.95833333"
+     inkscape:cx="400"
+     inkscape:cy="341.73913"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1366"
      inkscape:window-height="714"
@@ -37,6 +38,17 @@
      inkscape:window-maximized="1" />
   <defs
      id="defs4">
+    <linearGradient
+       id="linearGradient4917">
+      <stop
+         style="stop-color:#e50000;stop-opacity:1;"
+         offset="0"
+         id="stop4919" />
+      <stop
+         style="stop-color:#ff1e1e;stop-opacity:1;"
+         offset="1"
+         id="stop4921" />
+    </linearGradient>
     <linearGradient
        id="linearGradient11942">
       <stop
@@ -85,7 +97,8 @@
        gradientUnits="userSpaceOnUse" />
     <filter
        inkscape:collect="always"
-       id="filter5364">
+       id="filter5364"
+       color-interpolation-filters="sRGB">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="4.005375"
@@ -106,7 +119,8 @@
        clipPathUnits="userSpaceOnUse">
       <path
          id="path11657"
-         d="M 0,31 88,31 88,0 0,0 0,31 z" />
+         d="M 0,31 88,31 88,0 0,0 0,31 z"
+         inkscape:connector-curvature="0" />
     </clipPath>
     <linearGradient
        inkscape:collect="always"
@@ -164,7 +178,8 @@
        x="-0.1208848"
        width="1.2417696"
        y="-0.13453898"
-       height="1.269078">
+       height="1.269078"
+       color-interpolation-filters="sRGB">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="4.2835531"
@@ -211,10 +226,11 @@
     <filter
        inkscape:collect="always"
        id="filter12210"
-       x="-0.091342924"
-       width="1.1826858"
+       x="-0.091342926"
+       width="1.1826859"
        y="-0.55167508"
-       height="2.1033502">
+       height="2.1033502"
+       color-interpolation-filters="sRGB">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="24.225732"
@@ -265,11 +281,36 @@
        fx="361.04346"
        cy="259.82608"
        cx="361.04346"
-       gradientTransform="matrix(2.9550813,-1.0321857e-7,7.7734842e-8,2.2254986,-666.91288,174.11967)"
+       gradientTransform="matrix(2.9550813,-1.0321857e-7,7.7734842e-8,2.2254986,-666.91286,174.11965)"
        gradientUnits="userSpaceOnUse"
        id="radialGradient17325"
        xlink:href="#linearGradient5439"
        inkscape:collect="always" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2390" />
+    <inkscape:perspective
+       id="perspective10"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4917"
+       id="radialGradient4923"
+       cx="400"
+       cy="236.72716"
+       fx="400"
+       fy="236.72716"
+       r="35.143538"
+       gradientTransform="matrix(1,0,0,0.90376043,0,3.6205783)"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <metadata
      id="metadata7">
@@ -284,11 +325,11 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Slide 1"
+     inkscape:label="Title"
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-452.36218)"
-     style="display:inline">
+     style="display:none">
     <rect
        style="fill:url(#linearGradient5304);fill-opacity:1;stroke:none"
        id="rect5296"
@@ -323,40 +364,6 @@
        id="path11180"
        d="m 436.80027,873.25591 c -9.92545,0 -18.81589,2.9616 -23.9375,6.3125 -9.01466,5.89234 -19.02601,15.8413 -21.28125,31.6875 -1.69991,-2.34536 -3.87731,-4.60692 -6.6875,-6.65625 -3.76759,-2.7476 -9.84865,-5.375 -16.84375,-5.375 -5.61929,0 -11.81035,1.69004 -17.9375,6.4375 -9.7188,-19.21759 -25.36651,-25.09375 -38.96875,-25.09375 -9.37085,0 -17.78956,2.77386 -22.625,5.9375 -11.3626,7.42705 -24.43613,21.69344 -19.46875,46.90625 -15.34604,4.23141 -26.75,17.99442 -26.75,34.65625 0,19.82552 16.05345,35.90629 35.875,35.90629 l 108.21875,0 c 2.64242,0 5.20737,-0.2704 7.6875,-0.8125 2.53194,0.5316 5.15345,0.8125 7.84375,0.8125 l 114.59375,0 c 20.99454,0 38.03125,-17.0325 38.03125,-38.03129 -0.007,-17.326 -10.58762,-31.19464 -27.46875,-36.46875 1.46144,-7.84537 0.78258,-21.3371 -12.125,-30.75 -3.99057,-2.9102 -10.43466,-5.71875 -17.84375,-5.71875 -5.95186,0 -12.54147,1.81525 -19.03125,6.84375 -10.29399,-20.355 -26.874,-26.59375 -41.28125,-26.59375 z"
        style="opacity:0.84285715;fill:#ffffff;fill-opacity:1;display:inline" />
-    <text
-       sodipodi:linespacing="140%"
-       id="text5322"
-       y="642.82288"
-       x="399.75836"
-       style="font-size:54.99078751px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:139.99999762%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.25438597;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter5364);font-family:Courgette;-inkscape-font-specification:Courgette"
-       xml:space="preserve"><tspan
-         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:139.99999762%;fill:#000000;fill-opacity:1;stroke:none;font-family:Cabin;-inkscape-font-specification:Cabin Bold"
-         id="tspan5324"
-         y="642.82288"
-         x="399.75836"
-         sodipodi:role="line">Cloud Computing</tspan><tspan
-         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:139.99999762%;fill:#000000;fill-opacity:1;stroke:none;font-family:Courgette;-inkscape-font-specification:Courgette"
-         id="tspan5326"
-         y="724.8136"
-         x="399.75836"
-         sodipodi:role="line">for non-Computer Scientists</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:54.99078751px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:139.99999762%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.25438597;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter5364);font-family:Courgette;-inkscape-font-specification:Courgette"
-       x="399.75836"
-       y="642.82288"
-       id="text5424"
-       sodipodi:linespacing="140%"><tspan
-         sodipodi:role="line"
-         x="399.75836"
-         y="642.82288"
-         id="tspan5426"
-         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:139.99999762%;fill:#000000;fill-opacity:1;stroke:none;font-family:Cabin;-inkscape-font-specification:Cabin Bold" /><tspan
-         sodipodi:role="line"
-         x="399.75836"
-         y="724.8136"
-         id="tspan5428"
-         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:139.99999762%;fill:#000000;fill-opacity:1;stroke:none;font-family:Courgette;-inkscape-font-specification:Courgette">for non-Computer Scientists</tspan></text>
     <text
        sodipodi:linespacing="150%"
        id="text2994"
@@ -4010,7 +4017,7 @@
                id="g18340">
               <polygon
                  style="fill:#00539b"
-                 points="93,34.906 108.8,39.106 103.9,33.906 "
+                 points="103.9,33.906 93,34.906 108.8,39.106 "
                  id="polygon18342" />
             </g>
             <g
@@ -4026,20 +4033,20 @@
               <polygon
                  style="fill:#ffc425;stroke:#00539b;stroke-width:0.40000001;stroke-miterlimit:10"
                  stroke-miterlimit="10"
-                 points="118,53.606 108.8,39.106 108.1,47.906 "
+                 points="108.1,47.906 118,53.606 108.8,39.106 "
                  id="polygon18350" />
             </g>
             <polygon
                style="fill:#ffc425;stroke:#00539b;stroke-width:0.40000001;stroke-miterlimit:10"
                stroke-miterlimit="10"
-               points="114.1,34.207 108.5,25.006 108.8,39.106 116.6,42.307 123.6,35.606 "
+               points="116.6,42.307 123.6,35.606 114.1,34.207 108.5,25.006 108.8,39.106 "
                id="polygon18352" />
             <g
                id="g18354">
               <polygon
                  style="fill:#00539b;stroke:#00539b;stroke-width:0.40000001;stroke-miterlimit:10"
                  stroke-miterlimit="10"
-                 points="108.5,25.006 108.8,39.406 114.1,34.207 "
+                 points="114.1,34.207 108.5,25.006 108.8,39.406 "
                  id="polygon18356" />
             </g>
           </g>
@@ -4098,20 +4105,20 @@
              id="g18372">
             <polygon
                style="fill:#00539b"
-               points="116.6,42.307 108.8,39.106 118,53.606 "
+               points="118,53.606 116.6,42.307 108.8,39.106 "
                id="polygon18374" />
           </g>
           <g
              id="g18376">
             <polygon
                style="fill:#00539b"
-               points="108.1,47.906 108.8,39.106 99,52.506 "
+               points="99,52.506 108.1,47.906 108.8,39.106 "
                id="polygon18378" />
           </g>
           <polygon
              style="fill:#ffc425;stroke:#00539b;stroke-width:0.2;stroke-miterlimit:10"
              stroke-miterlimit="10"
-             points="103.9,33.906 108.5,25.006 108.8,39.106 "
+             points="108.8,39.106 103.9,33.906 108.5,25.006 "
              id="polygon18380" />
         </g>
       </g>
@@ -4123,23 +4130,60 @@
        height="600"
        x="0"
        y="452.36218" />
-    <text
-       xml:space="preserve"
-       style="font-size:54.99078751px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:139.99999762%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;filter:url(#filter5290);font-family:Courgette;-inkscape-font-specification:Courgette"
-       x="399.75836"
-       y="642.82288"
-       id="text3035"
-       sodipodi:linespacing="140%"><tspan
-         sodipodi:role="line"
+    <g
+       id="g3966">
+      <text
+         sodipodi:linespacing="140%"
+         id="text5424"
+         y="642.82288"
+         x="399.75836"
+         style="font-size:54.99078751px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:139.99999762%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.25400002;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter5364);font-family:Courgette;-inkscape-font-specification:Courgette"
+         xml:space="preserve"><tspan
+           style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:139.99999762%;fill:#000000;fill-opacity:1;stroke:none;font-family:Cabin;-inkscape-font-specification:Cabin Bold"
+           id="tspan5426"
+           y="642.82288"
+           x="399.75836"
+           sodipodi:role="line" /><tspan
+           style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:139.99999762%;fill:#000000;fill-opacity:1;stroke:none;font-family:Courgette;-inkscape-font-specification:Courgette"
+           id="tspan5428"
+           y="724.8136"
+           x="399.75836"
+           sodipodi:role="line">for non-Computer Scientists</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:54.99078751px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:139.99999762%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.25400002;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter5364);font-family:Courgette;-inkscape-font-specification:Courgette"
          x="399.75836"
          y="642.82288"
-         id="tspan3039"
-         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:139.99999762%;fill:#ffffff;stroke:none;font-family:Cabin;-inkscape-font-specification:Cabin Bold">Cloud Computing</tspan><tspan
-         sodipodi:role="line"
+         id="text5322"
+         sodipodi:linespacing="140%"><tspan
+           sodipodi:role="line"
+           x="399.75836"
+           y="642.82288"
+           id="tspan5324"
+           style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:139.99999762%;fill:#000000;fill-opacity:1;stroke:none;font-family:Cabin;-inkscape-font-specification:Cabin Bold">Cloud Computing</tspan><tspan
+           sodipodi:role="line"
+           x="399.75836"
+           y="724.8136"
+           id="tspan5326"
+           style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:139.99999762%;fill:#000000;fill-opacity:1;stroke:none;font-family:Courgette;-inkscape-font-specification:Courgette">for non-Computer Scientists</tspan></text>
+      <text
+         sodipodi:linespacing="140%"
+         id="text3035"
+         y="642.82288"
          x="399.75836"
-         y="724.8136"
-         id="tspan3043"
-         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:139.99999762%;fill:#ffffff;stroke:none;font-family:Courgette;-inkscape-font-specification:Courgette">for non-Computer Scientists</tspan></text>
+         style="font-size:54.99078751px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:139.99999762%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;filter:url(#filter5290);font-family:Courgette;-inkscape-font-specification:Courgette"
+         xml:space="preserve"><tspan
+           style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:139.99999762%;fill:#ffffff;stroke:none;font-family:Cabin;-inkscape-font-specification:Cabin Bold"
+           id="tspan3039"
+           y="642.82288"
+           x="399.75836"
+           sodipodi:role="line">Cloud Computing</tspan><tspan
+           style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:139.99999762%;fill:#ffffff;stroke:none;font-family:Courgette;-inkscape-font-specification:Courgette"
+           id="tspan3043"
+           y="724.8136"
+           x="399.75836"
+           sodipodi:role="line">for non-Computer Scientists</tspan></text>
+    </g>
     <g
        id="navigation-help"
        inkscape:label="#g3948">
@@ -4166,8 +4210,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="Slide 2"
-     style="display:none"
+     inkscape:label="What is cloud computing?"
+     style="display:inline"
      transform="translate(0,-168)">
     <rect
        style="fill:url(#linearGradient11201);fill-opacity:1;stroke:none"
@@ -4337,7 +4381,7 @@
           </linearGradient>
           <polygon
              id="polygon11503"
-             points="299.699,156.575 324.468,171.37 324.468,202.37 299.699,185.827 "
+             points="324.468,202.37 299.699,185.827 299.699,156.575 324.468,171.37 "
              enable-background="new    "
              stroke-miterlimit="10"
              style="opacity:0.8;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-miterlimit:10" />
@@ -4360,7 +4404,7 @@
           </linearGradient>
           <polygon
              id="polygon11511"
-             points="349.799,185.94 349.799,156.575 324.527,171.715 324.468,202.37 "
+             points="324.527,171.715 324.468,202.37 349.799,185.94 349.799,156.575 "
              enable-background="new    "
              stroke-miterlimit="10"
              style="opacity:0.8;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-miterlimit:10" />
@@ -4383,7 +4427,7 @@
           </linearGradient>
           <polygon
              id="polygon11519"
-             points="282.005,169.838 299.789,156.308 282.005,142.778 307.83,125.957 324.694,140.425 341.95,125.957 367.049,141.994 350.578,155.72 367.049,169.838 341.557,185.132 324.694,172.191 307.83,185.132 "
+             points="367.049,141.994 350.578,155.72 367.049,169.838 341.557,185.132 324.694,172.191 307.83,185.132 282.005,169.838 299.789,156.308 282.005,142.778 307.83,125.957 324.694,140.425 341.95,125.957 "
              enable-background="new    "
              stroke-miterlimit="10"
              style="opacity:0.9;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-miterlimit:10" />
@@ -4456,7 +4500,7 @@
              style="opacity:0.8;fill:url(#linearGradient11821);stroke:#79c3ec;stroke-miterlimit:10"
              stroke-miterlimit="10"
              enable-background="new    "
-             points="299.699,156.575 324.468,171.37 324.468,202.37 299.699,185.827 "
+             points="324.468,202.37 299.699,185.827 299.699,156.575 324.468,171.37 "
              id="polygon11278" />
           <linearGradient
              id="SVGID_2_"
@@ -4479,7 +4523,7 @@
              style="opacity:0.8;fill:url(#linearGradient11823);stroke:#79c3ec;stroke-miterlimit:10"
              stroke-miterlimit="10"
              enable-background="new    "
-             points="349.799,185.94 349.799,156.575 324.527,171.715 324.468,202.37 "
+             points="324.527,171.715 324.468,202.37 349.799,185.94 349.799,156.575 "
              id="polygon11285" />
           <linearGradient
              id="SVGID_3_"
@@ -4502,7 +4546,7 @@
              style="opacity:0.9;fill:url(#linearGradient11825);stroke:#79c3ec;stroke-miterlimit:10"
              stroke-miterlimit="10"
              enable-background="new    "
-             points="324.694,140.425 341.95,125.957 367.049,141.994 350.578,155.72 367.049,169.838 341.557,185.132 324.694,172.191 307.83,185.132 282.005,169.838 299.789,156.308 282.005,142.778 307.83,125.957 "
+             points="324.694,172.191 307.83,185.132 282.005,169.838 299.789,156.308 282.005,142.778 307.83,125.957 324.694,140.425 341.95,125.957 367.049,141.994 350.578,155.72 367.049,169.838 341.557,185.132 "
              id="polygon11292" />
           <linearGradient
              id="SVGID_4_"
@@ -4555,22 +4599,22 @@
        xml:space="preserve"
        style="font-size:44.17646408px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none;font-family:Cabin;-inkscape-font-specification:Cabin"
        x="43.57753"
-       y="420.69312"
+       y="321.56268"
        id="text11592"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan11594"
          x="43.57753"
-         y="420.69312"
+         y="321.56268"
          style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;fill:#1a1a1a;font-family:Courgette;-inkscape-font-specification:Courgette">What</tspan><tspan
          sodipodi:role="line"
          x="43.57753"
-         y="481.87625"
+         y="382.74582"
          id="tspan11598"
          style="font-size:44px">is cloud </tspan><tspan
          sodipodi:role="line"
          x="43.57753"
-         y="536.87622"
+         y="437.74582"
          id="tspan11934"
          style="font-size:44px">computing?</tspan></text>
     <text
@@ -4694,7 +4738,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="Slide 3"
+     inkscape:label="Elasticity: one computer"
      style="display:none">
     <g
        style="display:inline"
@@ -4707,7 +4751,7 @@
        inkscape:tile-y0="358.6087">
       <path
          transform="matrix(0.16459361,0,0,0.16459361,332.84581,383.83517)"
-         d="m 726.26086,473.21738 c 0,29.103 -142.49024,52.69565 -318.26086,52.69565 -175.77062,0 -318.260864,-23.59265 -318.260864,-52.69565 0,-29.10301 142.490244,-52.69566 318.260864,-52.69566 175.77062,0 318.26086,23.59265 318.26086,52.69566 z"
+         d="m 726.26086,473.21738 a 318.26086,52.695652 0 1 1 -636.521724,0 318.26086,52.695652 0 1 1 636.521724,0 z"
          sodipodi:ry="52.695652"
          sodipodi:rx="318.26086"
          sodipodi:cy="473.21738"
@@ -4731,26 +4775,71 @@
          sodipodi:role="line"
          id="tspan12216"
          x="399.94345"
-         y="538.06219">8:00 am</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#1a1a1a;fill-opacity:1;stroke:none;display:inline;font-family:Cabin;-inkscape-font-specification:Cabin"
-       x="400.01547"
-       y="61.990322"
-       id="text12114"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan12116"
-         x="400.01547"
-         y="61.990322"><tspan
-   style="font-size:18px;font-weight:bold;text-align:center;text-anchor:middle;fill:#1a1a1a"
-   id="tspan12118">cloud computing:</tspan> renting computers by the hour or minute</tspan></text>
+         y="538.06219">6:50 pm</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:0.75;fill:#000000"
+       d="m 98.694773,124.78077 c 0,-0.99684 1.659987,-9.56415 1.941337,-10.01939 0.10024,-0.16219 0.34924,-1.2128 0.55332,-2.33468 0.47607,-2.61701 1.35379,-5.42888 1.87043,-5.99214 0.2221,-0.24213 2.21512,-0.81771 4.42895,-1.27905 6.80091,-1.41725 9.79833,-2.50892 11.27819,-4.10755 0.70536,-0.76197 1.77216,-1.556111 2.37067,-1.764751 0.9509,-0.33148 1.08819,-0.54239 1.08819,-1.67168 0,-0.71079 -0.21725,-1.60408 -0.48279,-1.9851 -0.26554,-0.38102 -0.59962,-1.40397 -0.74241,-2.27321 -0.14278,-0.86925 -0.5577,-1.86318 -0.92204,-2.20875 -0.36434,-0.34556 -0.66244,-0.78659 -0.66244,-0.98005 0,-0.19346 -0.3556,-0.83272 -0.79022,-1.42056 -0.67406,-0.9117 -0.79669,-1.54205 -0.83425,-4.28811 -0.0725,-5.30535 0.38224,-7.73307 1.86795,-9.97137 2.0978,-3.16048 6.14899,-5.349471 9.91898,-5.359565 1.47312,-0.0039 2.09207,0.166854 2.71066,0.747987 0.46712,0.438838 1.5649,0.873758 2.63072,1.042238 2.12052,0.33521 4.02764,1.68184 4.95362,3.49779 0.46553,0.91296 0.6142,2.07005 0.61462,4.78344 2.8e-4,2.00665 0.15485,3.67455 0.35175,3.79624 0.95503,0.59024 0.0641,4.66836 -1.43414,6.5646 -0.56338,0.71305 -1.0278,1.58229 -1.03204,1.93166 -0.004,0.34936 -0.32034,1.32416 -0.70242,2.16621 -1.26898,2.79656 -0.83231,5.56437 0.97561,6.18391 0.3369,0.11545 1.1657,0.921181 1.84178,1.790501 0.67608,0.86933 1.62435,1.66991 2.10726,1.77907 0.48292,0.10917 2.64858,0.89424 4.81259,1.74462 2.16402,0.85037 4.04005,1.54613 4.16897,1.54613 0.12891,0 0.91902,0.43462 1.75579,0.96583 1.49537,0.9493 2.25743,2.21645 2.25743,3.75365 0,0.41325 0.32682,1.37745 0.72626,2.14266 0.64281,1.23144 1.08033,3.593 1.96581,10.61057 l 0.18835,1.49265 -29.88825,0 -29.888237,0 0,-0.8838 z"
+       id="path2396" />
+    <use
+       transform="translate(39.652174,-16.695652)"
+       style="display:inline"
+       x="0"
+       y="0"
+       xlink:href="#path2396"
+       id="use4814"
+       width="1"
+       height="1" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke:none"
+       id="rect4787"
+       width="282.78259"
+       height="11.478261"
+       x="-32.310497"
+       y="157.30782"
+       transform="matrix(0.95181685,-0.30666707,0.30666707,0.95181685,0,0)" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="Slide 4"
+     inkscape:label="Elasticity: many computers"
      style="display:none">
+    <use
+       height="1"
+       width="1"
+       id="use4804"
+       xlink:href="#path2396"
+       y="0"
+       x="0"
+       style="display:inline"
+       transform="translate(-56.347825,-4.1739092)" />
+    <use
+       transform="translate(-20.173912,-20.782605)"
+       style="display:inline"
+       x="0"
+       y="0"
+       xlink:href="#path2396"
+       id="use4806"
+       width="1"
+       height="1" />
+    <use
+       height="1"
+       width="1"
+       id="use4808"
+       xlink:href="#path2396"
+       y="0"
+       x="0"
+       style="display:inline"
+       transform="translate(15.652175,-34.434779)" />
+    <use
+       transform="translate(55.304349,-47.999996)"
+       style="display:inline"
+       x="0"
+       y="0"
+       xlink:href="#path2396"
+       id="use4810"
+       width="1"
+       height="1" />
     <use
        x="0"
        y="0"
@@ -4977,7 +5066,7 @@
          y="538.06219"
          x="399.94345"
          id="tspan15223"
-         sodipodi:role="line">8:10 am</tspan></text>
+         sodipodi:role="line">7:00 pm</tspan></text>
     <use
        style="display:inline"
        x="0"
@@ -4986,21 +5075,150 @@
        id="use22991"
        width="1"
        height="1" />
+    <use
+       style="display:inline"
+       x="0"
+       y="0"
+       xlink:href="#path2396"
+       id="use4793"
+       width="1"
+       height="1"
+       transform="translate(0,2.7660909e-6)" />
+    <use
+       height="1"
+       width="1"
+       id="use4796"
+       xlink:href="#path2396"
+       y="0"
+       x="0"
+       style="display:inline"
+       transform="translate(39.652174,-16.695649)" />
+    <use
+       transform="translate(78.26087,-30.260866)"
+       style="display:inline"
+       x="0"
+       y="0"
+       xlink:href="#path2396"
+       id="use4798"
+       width="1"
+       height="1" />
+    <use
+       height="1"
+       width="1"
+       id="use4800"
+       xlink:href="#path2396"
+       y="0"
+       x="0"
+       style="display:inline"
+       transform="translate(-39.652173,10.434786)" />
+    <use
+       transform="translate(-71.999999,24.08696)"
+       style="display:inline"
+       x="0"
+       y="0"
+       xlink:href="#path2396"
+       id="use4802"
+       width="1"
+       height="1" />
+    <use
+       style="display:inline"
+       x="0"
+       y="0"
+       xlink:href="#rect4787"
+       id="use4790"
+       width="1"
+       height="1"
+       transform="translate(0,2.7660909e-6)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Tailored for web dev"
+     style="display:none">
+    <use
+       transform="matrix(1.3804049,0,0,1.3804049,-335.45925,-660.10302)"
+       style="display:inline"
+       x="0"
+       y="0"
+       xlink:href="#g11994"
+       id="use4842"
+       width="1"
+       height="1" />
+    <g
+       id="g4881"
+       transform="matrix(0.41015625,0,0,0.41015625,498.0781,112.56522)">
+      <polygon
+         id="polygon4855"
+         points="437.367,100.62 404.321,470.819 255.778,512 107.644,470.877 74.633,100.62 "
+         style="fill:#e44d26" />
+      <polygon
+         id="polygon4857"
+         points="376.03,447.246 404.27,130.894 256,130.894 256,480.523 "
+         style="fill:#f16529" />
+      <polygon
+         id="polygon4859"
+         points="143.219,188.488 154.38,313.627 256,313.627 256,268.217 195.91,268.217 191.76,221.716 256,221.716 256,176.305 255.843,176.305 142.132,176.305 "
+         style="fill:#ebebeb" />
+      <polygon
+         id="polygon4861"
+         points="256,433.399 256,386.153 255.801,386.206 205.227,372.55 201.994,336.333 177.419,336.333 156.409,336.333 162.771,407.634 255.791,433.457 "
+         style="fill:#ebebeb" />
+      <path
+         id="path4863"
+         d="m 108.382,0 h 23.077 v 22.8 h 21.11 V 0 h 23.078 V 69.044 H 152.57 v -23.12 h -21.11 v 23.12 H 108.383 V 0 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4865"
+         d="M 205.994,22.896 H 185.678 V 0 h 63.72 V 22.896 H 229.073 V 69.044 H 205.995 V 22.896 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4867"
+         d="m 259.511,0 h 24.063 L 298.376,24.26 313.163,0 h 24.072 V 69.044 H 314.253 V 34.822 l -15.877,24.549 h -0.397 L 282.091,34.822 v 34.222 h -22.58 V 0 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4869"
+         d="m 348.72,0 h 23.084 v 46.222 h 32.453 V 69.044 H 348.72 V 0 z"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon4871"
+         points="348.937,407.634 349.62,399.962 360.291,280.411 361.399,268.217 349.162,268.217 255.843,268.217 255.843,313.627 311.761,313.627 306.49,372.521 255.843,386.191 255.843,433.435 "
+         style="fill:#ffffff" />
+      <polygon
+         id="polygon4873"
+         points="366.442,211.509 368.511,188.488 369.597,176.305 255.843,176.305 255.843,204.509 255.843,221.605 255.843,221.716 365.385,221.716 365.385,221.716 365.531,221.716 "
+         style="fill:#ffffff" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:41.10820389px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none;font-family:Courgette;-inkscape-font-specification:Courgette"
+       x="137.32127"
+       y="455.89194"
+       id="text4893"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4895"
+         x="137.32127"
+         y="455.89194">tailored for web development</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:url(#radialGradient4923);fill-opacity:1;stroke:none"
+       d="m 400.00001,249.32656 c 0,0 -0.10326,-2.06435 -2.36524,-5.4925 -2.48601,-3.76637 -6.21724,-7.46244 -12.05674,-12.4806 -5.45518,-4.68874 -11.67901,-9.66737 -15.80554,-15.19062 -4.2034,-5.6265 -5.91638,-11.4594 -4.33516,-17.2462 1.54608,-5.6726 6.10085,-10.28008 11.7405,-12.17972 5.74289,-1.93479 11.43086,-0.73132 15.68695,2.41793 4.27586,3.16242 6.17332,7.46464 6.81897,9.96603 0.65006,2.52116 -0.0175,2.52116 0.6325,0 0.64566,-2.50139 2.5431,-6.80361 6.81898,-9.96603 4.2561,-3.14925 9.94406,-4.35272 15.68693,-2.41793 5.63967,1.89964 10.19444,6.50712 11.74051,12.17972 1.58121,5.7868 -0.13177,11.6197 -4.33515,17.2462 -4.12653,5.52325 -10.35036,10.50188 -15.80554,15.19062 -5.83951,5.01816 -9.57072,8.71423 -12.05675,12.4806 -2.26202,3.42815 -2.36522,5.4925 -2.36522,5.4925 z"
+       id="path4903" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer5"
-     inkscape:label="Slide 5"
+     inkscape:label="Question"
      style="display:none">
     <text
        xml:space="preserve"
        style="font-size:90.3282547px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;letter-spacing:0px;word-spacing:0px;fill:#01adee;fill-opacity:1;stroke:none;font-family:Cabin;-inkscape-font-specification:Cabin"
-       x="127.28852"
+       x="126.67764"
        y="136.48958"
        id="text15237"
        sodipodi:linespacing="150%"><tspan
          sodipodi:role="line"
-         x="127.28852"
+         x="126.67764"
          y="136.48958"
          id="tspan15243"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;fill:#01adee;fill-opacity:1;font-family:Courgette;-inkscape-font-specification:Courgette">Can scientists</tspan></text>
@@ -5008,25 +5226,27 @@
        sodipodi:linespacing="150%"
        id="text15271"
        y="191.7431"
-       x="130.40953"
-       style="font-size:41.85625458px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Cabin;-inkscape-font-specification:Cabin"
+       x="399.83649"
+       style="font-size:41.85625458px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:150%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#666666;fill-opacity:1;stroke:none;font-family:Cabin;-inkscape-font-specification:Cabin"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;fill:#666666;fill-opacity:1;font-family:Courgette;-inkscape-font-specification:Courgette"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:150%;text-anchor:middle;fill:#666666;fill-opacity:1;font-family:Courgette;-inkscape-font-specification:Courgette"
          id="tspan15273"
          y="191.7431"
-         x="130.40953"
-         sodipodi:role="line">have <tspan
+         x="399.83649"
+         sodipodi:role="line">also have <tspan
    style="fill:#1a1a1a"
-   id="tspan22987">nearly instant</tspan> access to</tspan></text>
+   id="tspan3953">nearly </tspan><tspan
+   style="text-align:center;text-anchor:middle;fill:#1a1a1a"
+   id="tspan22987">instant</tspan> access to</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:58.18058777px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Cabin;-inkscape-font-specification:Cabin"
-       x="127.57687"
+       x="126.966"
        y="270.30249"
        id="text15275"
        sodipodi:linespacing="150%"><tspan
          sodipodi:role="line"
-         x="127.57687"
+         x="126.966"
          y="270.30249"
          id="tspan15277"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;fill:#666666;fill-opacity:1;font-family:Courgette;-inkscape-font-specification:Courgette"><tspan
@@ -5175,6 +5395,11 @@
          height="600" />
     </g>
   </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Slide 6"
+     style="display:none" />
   <script
      xlink:href="slides.js"
      id="JessyInk"
