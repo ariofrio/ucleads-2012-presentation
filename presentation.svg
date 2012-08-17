@@ -5165,16 +5165,16 @@
      style="display:none">
     <text
        xml:space="preserve"
-       style="font-size:41px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#1a1a1a;fill-opacity:1;stroke:none;font-family:Courgette;-inkscape-font-specification:Courgette"
-       x="397.62143"
-       y="311.30075"
+       style="font-size:41px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#1a1a1a;fill-opacity:1;stroke:none;font-family:Cabin;-inkscape-font-specification:Cabin"
+       x="399.97726"
+       y="310.414"
        id="text4893"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4895"
-         x="397.62143"
-         y="311.30075">tailored for <tspan
-   style="font-size:41px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#01adee;fill-opacity:1;font-family:Courgette;-inkscape-font-specification:Courgette"
+         x="399.97726"
+         y="310.414">tailored for <tspan
+   style="font-size:41px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#01adee;fill-opacity:1;font-family:Cabin;-inkscape-font-specification:Cabin"
    id="tspan5009">web development</tspan></tspan></text>
   </g>
   <g
@@ -5201,14 +5201,14 @@
        x="399.83984"
        style="font-size:41px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:150%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#666666;fill-opacity:1;stroke:none;font-family:Cabin;-inkscape-font-specification:Cabin"
        xml:space="preserve"><tspan
-         style="font-size:41px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:150%;text-anchor:middle;fill:#666666;fill-opacity:1;font-family:Courgette;-inkscape-font-specification:Courgette"
+         style="font-size:41px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:150%;text-anchor:middle;fill:#666666;fill-opacity:1;font-family:Cabin;-inkscape-font-specification:Cabin"
          id="tspan15273"
          y="189.7431"
          x="399.83984"
          sodipodi:role="line">also have <tspan
-   style="font-size:41px;fill:#1a1a1a"
+   style="font-size:41px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#1a1a1a;font-family:Cabin;-inkscape-font-specification:Cabin"
    id="tspan3953">nearly </tspan><tspan
-   style="font-size:41px;text-align:center;text-anchor:middle;fill:#1a1a1a"
+   style="font-size:41px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#1a1a1a;font-family:Cabin;-inkscape-font-specification:Cabin"
    id="tspan22987">instant</tspan> access to</tspan></text>
     <text
        xml:space="preserve"
@@ -5437,38 +5437,19 @@
     </g>
     <g
        id="g5317"
-       transform="translate(59.389245,50.086957)">
+       transform="translate(59.977668,375.65217)"
+       style="fill:#666666;fill-opacity:1">
       <text
          sodipodi:linespacing="125%"
          id="text5313"
          y="96.498306"
          x="340.08511"
-         style="font-size:41px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#01adee;fill-opacity:1;stroke:none;font-family:Courgette;-inkscape-font-specification:Courgette"
+         style="font-size:41px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#666666;fill-opacity:1;stroke:none;font-family:Cabin;-inkscape-font-specification:Cabin"
          xml:space="preserve"><tspan
            y="96.498306"
            x="340.08511"
            id="tspan5315"
-           sodipodi:role="line"><tspan
-             style="font-size:41px;text-align:center;text-anchor:middle;fill:#01adee;fill-opacity:1"
-             id="tspan5456">abstract away details</tspan></tspan></text>
-    </g>
-    <g
-       transform="translate(59.389245,379.82609)"
-       id="g5732"
-       style="fill:#666666;fill-opacity:1">
-      <text
-         xml:space="preserve"
-         style="font-size:41px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#666666;fill-opacity:1;stroke:none;font-family:Courgette;-inkscape-font-specification:Courgette"
-         x="340.08511"
-         y="96.498306"
-         id="text5734"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan5736"
-           x="340.08511"
-           y="96.498306">simple interface<tspan
-   id="tspan5738"
-   style="font-size:41px;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1" /></tspan></text>
+           sodipodi:role="line">hide details from user</tspan></text>
     </g>
   </g>
   <g
