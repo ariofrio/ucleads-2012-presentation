@@ -26,11 +26,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.985"
-     inkscape:cx="331.72356"
-     inkscape:cy="294.46266"
+     inkscape:zoom="1"
+     inkscape:cx="400"
+     inkscape:cy="300"
      inkscape:document-units="px"
-     inkscape:current-layer="layer18"
+     inkscape:current-layer="layer15"
      showgrid="false"
      inkscape:window-width="1366"
      inkscape:window-height="768"
@@ -6451,6 +6451,17 @@
          y="0"
          x="0" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#666666;fill-opacity:1;stroke:none;font-family:Cabin;-inkscape-font-specification:Cabin"
+       x="400.11649"
+       y="63.995419"
+       id="text59137"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan59139"
+         x="400.11649"
+         y="63.995419">The problem is:</tspan></text>
   </g>
   <g
      style="display:none"
@@ -7382,7 +7393,7 @@
      inkscape:groupmode="layer"
      id="layer18"
      inkscape:label="Future Work"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:63px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#01adee;fill-opacity:1;stroke:none;font-family:Courgette;-inkscape-font-specification:Courgette"
@@ -7419,7 +7430,7 @@
          id="tspan59133" /></text>
   </g>
   <g
-     style="display:none"
+     style="display:inline"
      inkscape:label="Neptune"
      id="layer15"
      inkscape:groupmode="layer">
