@@ -6136,7 +6136,7 @@ function keydown(e)
 		document.onkeypress = keypress;
 }
 // Set event handler for key down.
-document.onkeydown = keydown;
+document.addEventListener('keydown', keydown);
 
 /** Event handler for key press.
  *
