@@ -5194,7 +5194,7 @@
 // along with this program.  If not, see http://www.gnu.org/licenses/.
 
 // Set onload event handler.
-window.onload = jessyInkInit;
+window.addEventListener("load", jessyInkInit, false);
 
 // Creating a namespace dictionary. The standard Inkscape namespaces are taken from inkex.py.
 var NSS = new Object();
@@ -6128,15 +6128,14 @@ function keydown(e)
 		e = window.event;
 
 	code = e.keyCode || e.charCode;
-  console.log("keydown " + code);
 
 	if (!processingEffect &amp;&amp; keyCodeDictionary[currentMode] &amp;&amp; keyCodeDictionary[currentMode][code])
 		return keyCodeDictionary[currentMode][code]();
 	else
-		document.onkeypress = keypress;
+    document.addEventListener('keypress', keypress, false);
 }
 // Set event handler for key down.
-document.addEventListener('keydown', keydown);
+document.addEventListener('keydown', keydown, false);
 
 /** Event handler for key press.
  *
@@ -6144,13 +6143,12 @@ document.addEventListener('keydown', keydown);
  */
 function keypress(e)
 {
-	document.onkeypress = null;
+  document.removeEventListener('keypress', keypress, false);
 
 	if (!e)
 		e = window.event;
 
 	str = String.fromCharCode(e.keyCode || e.charCode);
-  console.log("keypress " + str);
 
 	if (!processingEffect &amp;&amp; charCodeDictionary[currentMode] &amp;&amp; charCodeDictionary[currentMode][str])
 		return charCodeDictionary[currentMode][str]();
@@ -6269,18 +6267,15 @@ function mouseHandlerDispatch(evnt, action)
 }
 
 // Set mouse event handler.
-document.onmousedown = function(e) { return mouseHandlerDispatch(e, MOUSE_DOWN); };
-document.onmouseup = function(e) { return mouseHandlerDispatch(e, MOUSE_UP); };
-document.onmousemove = function(e) { return mouseHandlerDispatch(e, MOUSE_MOVE); };
+document.addEventListener("mousedown", function(e) { return mouseHandlerDispatch(e, MOUSE_DOWN); }, false);
+document.addEventListener("mouseup", function(e) { return mouseHandlerDispatch(e, MOUSE_UP); }, false);
+document.addEventListener("mousemove", function(e) { return mouseHandlerDispatch(e, MOUSE_MOVE); }, false);
 
 // Moz
-if (window.addEventListener)
-{
-	window.addEventListener('DOMMouseScroll', function(e) { return mouseHandlerDispatch(e, MOUSE_WHEEL); }, false);
-}
+window.addEventListener('DOMMouseScroll', function(e) { return mouseHandlerDispatch(e, MOUSE_WHEEL); }, false);
 
 // Opera Safari OK - may not work in IE
-window.onmousewheel = function(e) { return mouseHandlerDispatch(e, MOUSE_WHEEL); };
+window.addEventListener("mousewheel", function(e) { return mouseHandlerDispatch(e, MOUSE_WHEEL); }, false);
 
 /** Function to supply the default mouse handler dictionary.
  *
