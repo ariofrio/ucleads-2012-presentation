@@ -6128,6 +6128,7 @@ function keydown(e)
 		e = window.event;
 
 	code = e.keyCode || e.charCode;
+  console.log("keydown " + code);
 
 	if (!processingEffect &amp;&amp; keyCodeDictionary[currentMode] &amp;&amp; keyCodeDictionary[currentMode][code])
 		return keyCodeDictionary[currentMode][code]();
@@ -6149,6 +6150,7 @@ function keypress(e)
 		e = window.event;
 
 	str = String.fromCharCode(e.keyCode || e.charCode);
+  console.log("keypress " + str);
 
 	if (!processingEffect &amp;&amp; charCodeDictionary[currentMode] &amp;&amp; charCodeDictionary[currentMode][str])
 		return charCodeDictionary[currentMode][str]();
