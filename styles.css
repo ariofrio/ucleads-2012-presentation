@@ -1,0 +1,9 @@
+#navigation-help_0 {
+  opacity: 1;
+  -webkit-transition: opacity 2s;
+}
+
+g:hover #navigation-help_0 {
+  opacity: 0;
+}
+

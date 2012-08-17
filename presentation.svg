@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<?xml-stylesheet href="styles.css" type="text/css"?><!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
    xmlns:ns1="https://launchpad.net/jessyink"
@@ -25,8 +25,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.86833333"
-     inkscape:cx="400.5131"
-     inkscape:cy="300"
+     inkscape:cx="455.29464"
+     inkscape:cy="300.05629"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -82,8 +82,7 @@
        y1="454.44913"
        x2="358.95651"
        y2="1053.5156"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(2.0869565,0)" />
+       gradientUnits="userSpaceOnUse" />
     <filter
        inkscape:collect="always"
        id="filter5364">
@@ -91,18 +90,6 @@
          inkscape:collect="always"
          stdDeviation="4.005375"
          id="feGaussianBlur5366" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       id="filter5414"
-       x="-0.026631966"
-       width="1.0532639"
-       y="-0.19282009"
-       height="1.3856402">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="3.6038075"
-         id="feGaussianBlur5416" />
     </filter>
     <linearGradient
        inkscape:collect="always"
@@ -114,18 +101,6 @@
        y2="740.02374"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.65293043,0,0,1.1007021,148.93404,-1024.4767)" />
-    <filter
-       inkscape:collect="always"
-       id="filter11577"
-       x="-0.25017767"
-       width="1.5003553"
-       y="-0.27843573"
-       height="1.5568715">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="8.8650456"
-         id="feGaussianBlur11579" />
-    </filter>
     <clipPath
        id="clipPath11655"
        clipPathUnits="userSpaceOnUse">
@@ -319,10 +294,11 @@
        id="rect5296"
        width="800"
        height="600"
-       x="2.0869565"
+       x="0"
        y="452.36218" />
     <g
-       id="g11190">
+       id="g11190"
+       transform="translate(0,-25.335893)">
       <path
          inkscape:connector-curvature="0"
          id="path11428"
@@ -345,61 +321,61 @@
     <path
        inkscape:connector-curvature="0"
        id="path11180"
-       d="m 436.80027,868.5918 c -9.92545,0 -18.81589,2.9616 -23.9375,6.3125 -9.01466,5.89234 -19.02601,15.8413 -21.28125,31.6875 -1.69991,-2.34536 -3.87731,-4.60692 -6.6875,-6.65625 -3.76759,-2.7476 -9.84865,-5.375 -16.84375,-5.375 -5.61929,0 -11.81035,1.69004 -17.9375,6.4375 -9.7188,-19.21759 -25.36651,-25.09375 -38.96875,-25.09375 -9.37085,0 -17.78956,2.77386 -22.625,5.9375 -11.3626,7.42705 -24.43613,21.69344 -19.46875,46.90625 -15.34604,4.23141 -26.75,17.99442 -26.75,34.65625 0,19.82552 16.05345,35.90625 35.875,35.90625 l 108.21875,0 c 2.64242,0 5.20737,-0.27038 7.6875,-0.8125 2.53194,0.53165 5.15345,0.8125 7.84375,0.8125 l 114.59375,0 c 20.99454,0 38.03125,-17.03246 38.03125,-38.03125 -0.007,-17.326 -10.58762,-31.19464 -27.46875,-36.46875 1.46144,-7.84537 0.78258,-21.3371 -12.125,-30.75 -3.99057,-2.9102 -10.43466,-5.71875 -17.84375,-5.71875 -5.95186,0 -12.54147,1.81525 -19.03125,6.84375 -10.29399,-20.355 -26.874,-26.59375 -41.28125,-26.59375 z"
-       style="opacity:0.84285714;fill:#ffffff;fill-opacity:1;display:inline" />
+       d="m 436.80027,873.25591 c -9.92545,0 -18.81589,2.9616 -23.9375,6.3125 -9.01466,5.89234 -19.02601,15.8413 -21.28125,31.6875 -1.69991,-2.34536 -3.87731,-4.60692 -6.6875,-6.65625 -3.76759,-2.7476 -9.84865,-5.375 -16.84375,-5.375 -5.61929,0 -11.81035,1.69004 -17.9375,6.4375 -9.7188,-19.21759 -25.36651,-25.09375 -38.96875,-25.09375 -9.37085,0 -17.78956,2.77386 -22.625,5.9375 -11.3626,7.42705 -24.43613,21.69344 -19.46875,46.90625 -15.34604,4.23141 -26.75,17.99442 -26.75,34.65625 0,19.82552 16.05345,35.90629 35.875,35.90629 l 108.21875,0 c 2.64242,0 5.20737,-0.2704 7.6875,-0.8125 2.53194,0.5316 5.15345,0.8125 7.84375,0.8125 l 114.59375,0 c 20.99454,0 38.03125,-17.0325 38.03125,-38.03129 -0.007,-17.326 -10.58762,-31.19464 -27.46875,-36.46875 1.46144,-7.84537 0.78258,-21.3371 -12.125,-30.75 -3.99057,-2.9102 -10.43466,-5.71875 -17.84375,-5.71875 -5.95186,0 -12.54147,1.81525 -19.03125,6.84375 -10.29399,-20.355 -26.874,-26.59375 -41.28125,-26.59375 z"
+       style="opacity:0.84285715;fill:#ffffff;fill-opacity:1;display:inline" />
     <text
        sodipodi:linespacing="140%"
        id="text5322"
-       y="668.15875"
+       y="642.82288"
        x="399.75836"
        style="font-size:54.99078751px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:139.99999762%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.25438597;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter5364);font-family:Courgette;-inkscape-font-specification:Courgette"
        xml:space="preserve"><tspan
          style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:139.99999762%;fill:#000000;fill-opacity:1;stroke:none;font-family:Cabin;-inkscape-font-specification:Cabin Bold"
          id="tspan5324"
-         y="668.15875"
+         y="642.82288"
          x="399.75836"
          sodipodi:role="line">Cloud Computing</tspan><tspan
          style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:139.99999762%;fill:#000000;fill-opacity:1;stroke:none;font-family:Courgette;-inkscape-font-specification:Courgette"
          id="tspan5326"
-         y="750.14948"
+         y="724.8136"
          x="399.75836"
          sodipodi:role="line">for non-Computer Scientists</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:54.99078751px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:139.99999762%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.25438597;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter5364);font-family:Courgette;-inkscape-font-specification:Courgette"
        x="399.75836"
-       y="668.15875"
+       y="642.82288"
        id="text5424"
        sodipodi:linespacing="140%"><tspan
          sodipodi:role="line"
          x="399.75836"
-         y="668.15875"
+         y="642.82288"
          id="tspan5426"
          style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:139.99999762%;fill:#000000;fill-opacity:1;stroke:none;font-family:Cabin;-inkscape-font-specification:Cabin Bold" /><tspan
          sodipodi:role="line"
          x="399.75836"
-         y="750.14948"
+         y="724.8136"
          id="tspan5428"
          style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:139.99999762%;fill:#000000;fill-opacity:1;stroke:none;font-family:Courgette;-inkscape-font-specification:Courgette">for non-Computer Scientists</tspan></text>
     <text
        sodipodi:linespacing="150%"
        id="text2994"
-       y="823.96655"
+       y="800.63068"
        x="399.33359"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:150%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cabin;-inkscape-font-specification:Cabin"
        xml:space="preserve"><tspan
          style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;fill:#ffffff;font-family:Cabin;-inkscape-font-specification:Cabin"
          id="tspan2998"
-         y="823.96655"
+         y="800.63068"
          x="399.33359"
          sodipodi:role="line">Andres Riofrio, Chris Bunch, Chandra Krintz</tspan><tspan
          style="font-size:18px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;fill:#ffffff;font-family:Cabin;-inkscape-font-specification:Cabin"
-         y="850.96655"
+         y="827.63068"
          x="399.33359"
          sodipodi:role="line"
          id="tspan3002">Department of Computer Science, UCSB</tspan></text>
     <g
-       transform="matrix(0.38143013,0,0,0.38143013,247.42795,591.53738)"
+       transform="matrix(0.38143013,0,0,0.38143013,247.42795,596.20149)"
        id="g19832">
       <path
          style="fill:#00539b;fill-opacity:1;stroke:none"
@@ -4042,7 +4018,7 @@
               <polygon
                  style="fill:#ffc425;stroke:#00539b;stroke-width:0.40000001;stroke-miterlimit:10"
                  stroke-miterlimit="10"
-                 points="99,52.506 108.8,39.106 93,34.906 100.4,42.707 "
+                 points="100.4,42.707 99,52.506 108.8,39.106 93,34.906 "
                  id="polygon18346" />
             </g>
             <g
@@ -4151,19 +4127,41 @@
        xml:space="preserve"
        style="font-size:54.99078751px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:139.99999762%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;filter:url(#filter5290);font-family:Courgette;-inkscape-font-specification:Courgette"
        x="399.75836"
-       y="668.15875"
+       y="642.82288"
        id="text3035"
        sodipodi:linespacing="140%"><tspan
          sodipodi:role="line"
          x="399.75836"
-         y="668.15875"
+         y="642.82288"
          id="tspan3039"
          style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:139.99999762%;fill:#ffffff;stroke:none;font-family:Cabin;-inkscape-font-specification:Cabin Bold">Cloud Computing</tspan><tspan
          sodipodi:role="line"
          x="399.75836"
-         y="750.14948"
+         y="724.8136"
          id="tspan3043"
          style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:139.99999762%;fill:#ffffff;stroke:none;font-family:Courgette;-inkscape-font-specification:Courgette">for non-Computer Scientists</tspan></text>
+    <g
+       id="navigation-help"
+       inkscape:label="#g3948">
+      <rect
+         y="504.36218"
+         x="0"
+         height="32"
+         width="800"
+         id="rect3918"
+         style="opacity:0.8;fill:#1a1a1a;fill-opacity:1;stroke:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3920"
+         y="525.86212"
+         x="399.93503"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cabin;-inkscape-font-specification:Cabin"
+         xml:space="preserve"><tspan
+           y="525.86212"
+           x="399.93503"
+           id="tspan3922"
+           sodipodi:role="line">Click or use the arrow keys to navigate</tspan></text>
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -4709,7 +4707,7 @@
        inkscape:tile-y0="358.6087">
       <path
          transform="matrix(0.16459361,0,0,0.16459361,332.84581,383.83517)"
-         d="m 726.26086,473.21738 a 318.26086,52.695652 0 1 1 -636.521724,0 318.26086,52.695652 0 1 1 636.521724,0 z"
+         d="m 726.26086,473.21738 c 0,29.103 -142.49024,52.69565 -318.26086,52.69565 -175.77062,0 -318.260864,-23.59265 -318.260864,-52.69565 0,-29.10301 142.490244,-52.69566 318.260864,-52.69566 175.77062,0 318.26086,23.59265 318.26086,52.69566 z"
          sodipodi:ry="52.695652"
          sodipodi:rx="318.26086"
          sodipodi:cy="473.21738"
@@ -5178,7 +5176,7 @@
     </g>
   </g>
   <script
+     xlink:href="slides.js"
      id="JessyInk"
-     ns1:version="1.5.5"
-     xlink:href="slides.js" />
+     ns1:version="1.5.5" />
 </svg>
